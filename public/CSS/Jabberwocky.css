@@ -1,7 +1,26 @@
-#test{
-	color: black;
-	font-size: 25px;
-
+h1 {
+	font-weight: bold;
+}
+.George {
+	background-color: red;
+	text-decoration: line-through;
+}
+.Lewis {
+	font-weight: bold;
+	font-style: italic;
+}
+.indent {
+	text-indent: 50px;
+}
+.right-align {
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	font-family: "comic sans ms"
+}
+a:hover {
+	text-decoration: underline;
 }
 p {
 	text-indent: 85px;
