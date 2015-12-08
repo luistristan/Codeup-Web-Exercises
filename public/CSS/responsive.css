@@ -1,65 +1,79 @@
-body {
-    width: 100%;
-    height: auto;
-    font-size: 14px
-    /*border: 1px solid black;*/
-}
 
-h6 {
-    font-size: 2rem;
-    margin-top: 0%;
-    margin-bottom: -1%;
-    margin-left: 1%;
-}
-
-.box {
-    width: 80%;
-    padding: 40px;
-    border: 1px solid black;
-}
-
-.yellow {
-    background-color: yellow;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.red {
+.red-box {
     background-color: red;
+    height: 25%;
+    padding: 1.5rem;
+    float: left;
 }
 
-.khaki {
-    background-color: khaki;
+.green-box {
+    background-color: green;
+    height: 25%;
+    padding: 1.5rem;
+    float: left;
 }
 
-.salmon {
-    background-color: salmon;
+.blue-box {
+    background-color: blue;
+    height: 25%;
+    padding: 1.5rem;
+    float: left;
 }
 
-/*If screen is less than 550px in width*/
+.orange-box {
+    background-color: orange;
+    height: 25%;
+    padding: 1.5rem;
+    float: left;
+}
+
+.purple-box {
+    background-color: purple;
+    height: 25%;
+    padding: 1.5rem;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+ /* 80% under 550px  and 30% over 550px*/
 @media screen and (max-width: 550px) {
     .box {
-        width: 80%;
-        margin: 1rem;
+        width: 80%; 
+        margin: 1.5rem;
+    }
+
+    .top-bar {
+        width: 100%;
+        height: auto;
+        padding: .5rem;
+        background-color: gray;
+        margin: .25rem;
     }
 }
 
-/*If the screen is greater than 550px in width*/
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 551px) {
     .box {
         width: 30%;
-        margin: .5rem;
+        margin: .25rem;
+    }
+
+    .top-bar {
+        height: 500px;
+        width: 15%;
+        padding: .5rem;
+        background-color: gray;
+        margin: .25rem auto;
         float: left;
     }
 }
 
-/*If the screen is greater than 800px in width*/
 @media screen and (min-width: 800px) {
     .box {
         width: 25%;
-        margin: 1rem;
-        float: left;
+        margin: .5rem;
     }
 }
