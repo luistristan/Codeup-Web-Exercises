@@ -1,27 +1,52 @@
-h1 {
-	font-weight: bold;
+/*look into pre element - was suggested for poems?*/
+
+html {
+	font-family: times, arial, "papyrus", sans-serif;
 }
-.George {
-	background-color: red;
-	text-decoration: line-through;
+
+article {
+	font-size: 48px;
+	font-weight: bolder;
 }
-.Lewis {
-	font-weight: bold;
-	font-style: italic;
-}
-.indent {
-	text-indent: 50px;
-}
-.right-align {
-	text-align: right;
-}
+
 a {
-	text-decoration: none;
-	font-family: "comic sans ms"
+	font-size: 65px;
+	font-family: "papyrus";
+	color: #000;
 }
+
+p {
+	font-size: 20px;
+	font-family: "arial";
+}
+
+#author-name {
+	font-size: 36px;
+	font-family: "times";
+	line-height: 24px;
+}
+
+#strikethrough-name {
+	text-decoration: line-through;
+	background-color: #f00;
+	display: inline;
+}
+
+
+.left-justified {
+	text-align: left;
+	text-indent: 80px;
+}
+
+.right-justified {
+	text-align: right;
+	text-indent: 35px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
 a:hover {
 	text-decoration: underline;
-}
-p {
-	text-indent: 85px;
 }
